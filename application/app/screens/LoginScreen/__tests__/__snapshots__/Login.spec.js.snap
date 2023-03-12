@@ -1,0 +1,442 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login component renders correctly 1`] = `
+<RCTScrollView
+  contentInset={
+    Object {
+      "bottom": 0,
+    }
+  }
+  getTextInputRefs={[Function]}
+  onContentSizeChange={[Function]}
+  onLayout={[Function]}
+  onScroll={[Function]}
+  scrollEventThrottle={200}
+  scrollToBottomOnKBShow={false}
+  scrollToInputAdditionalOffset={75}
+  startScrolledToBottom={false}
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flex": 1,
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "flex": 1,
+          "height": 1360.68,
+        }
+      }
+    >
+      <View
+        accessibilityIgnoresInvertColors={true}
+        style={
+          Object {
+            "alignSelf": "center",
+            "bottom": 773.7199999999999,
+            "height": 1974.32,
+            "position": "relative",
+            "width": "100%",
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../assets/images_assets/Finalshape.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              Object {
+                "height": 1974.32,
+                "width": "100%",
+              },
+              undefined,
+            ]
+          }
+        />
+        <Text
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#3AF1C2",
+              "fontFamily": "Comfortaa-Regular",
+              "fontSize": 110.72200000000001,
+              "marginTop": 947.14,
+              "position": "absolute",
+              "shadowColor": "#3AF1C2",
+              "shadowOffset": Object {
+                "height": 0,
+                "width": 1,
+              },
+              "shadowOpacity": 0.5,
+              "shadowRadius": 5,
+            }
+          }
+        >
+          bobbob
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#000000",
+              "fontFamily": "Poppins-Medium",
+              "fontSize": 23,
+              "marginTop": 1267.3,
+              "textAlign": "center",
+            }
+          }
+        >
+          Log in
+        </Text>
+        <View
+          style={
+            Object {
+              "alignSelf": "center",
+              "flexDirection": "row",
+              "height": 60,
+              "marginTop": -26.68,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "center",
+            }
+          }
+        />
+        <View>
+          <View
+            style={Object {}}
+          >
+            <View
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "backgroundColor": "#FFFFFF",
+                  "borderRadius": 30,
+                  "color": "black",
+                  "flexDirection": "row",
+                  "height": 104.052,
+                  "margin": 17.342,
+                  "marginTop": 13.34,
+                  "shadowColor": "#D8D8D8",
+                  "shadowOpacity": 2,
+                  "shadowRadius": 5,
+                  "textAlign": "left",
+                  "width": 646.551724137931,
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../assets/images_assets/mailicondark.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 20,
+                    "margin": 37.352000000000004,
+                    "padding": 13.34,
+                    "width": 25,
+                  }
+                }
+              />
+              <TextInput
+                autoCapitalize="none"
+                keyboardType="email-address"
+                onChangeText={[Function]}
+                onFocus={null}
+                placeholder="Type in your email"
+                placeholderTextColor="gray"
+                style={
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "Poppins-Medium",
+                    "fontSize": 12.5,
+                    "width": 200,
+                  }
+                }
+                value=""
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "backgroundColor": "#FFFFFF",
+                  "borderRadius": 30,
+                  "color": "black",
+                  "flexDirection": "row",
+                  "height": 104.052,
+                  "marginTop": 22.678,
+                  "shadowColor": "#D8D8D8",
+                  "shadowOpacity": 2,
+                  "shadowRadius": 5,
+                  "textAlign": "left",
+                  "width": 646.551724137931,
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../assets/images_assets/keyicondark.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 23,
+                    "margin": 37.352000000000004,
+                    "padding": 13.34,
+                    "width": 25,
+                  }
+                }
+              />
+              <TextInput
+                autoCapitalize="none"
+                onChangeText={[Function]}
+                onFocus={null}
+                placeholder="Type in your password"
+                placeholderTextColor="gray"
+                secureTextEntry={true}
+                style={
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "Poppins-Medium",
+                    "fontSize": 12.5,
+                    "width": 375,
+                  }
+                }
+                value=""
+              />
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "overflow": "hidden",
+                    }
+                  }
+                  testID="RNE__ICON__CONTAINER"
+                >
+                  <View
+                    accessibilityRole="button"
+                    accessibilityState={
+                      Object {
+                        "disabled": false,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={true}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    testID="RNE__ICON__CONTAINER_ACTION"
+                  >
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "transparent",
+                          "justifyContent": "center",
+                        }
+                      }
+                      testID="RNE__ICON"
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        selectable={false}
+                        style={
+                          Array [
+                            Object {
+                              "color": "rgba(0,0,0,0.2)",
+                              "fontSize": 18,
+                            },
+                            Object {
+                              "backgroundColor": "transparent",
+                            },
+                            Object {
+                              "fontFamily": "FontAwesome5Free-Regular",
+                              "fontStyle": "normal",
+                              "fontWeight": "normal",
+                            },
+                            Object {
+                              "fontWeight": "400",
+                            },
+                          ]
+                        }
+                        testID="RNE__ICON__Component"
+                      >
+                        
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <Text
+            style={
+              Object {
+                "color": "#000000",
+                "fontFamily": "Poppins-Medium",
+                "fontSize": 8.5,
+                "marginTop": 20.009999999999998,
+                "opacity": 0.3,
+                "textAlign": "center",
+              }
+            }
+          >
+            Min. 8 chars long incl. 1x : Lower case, Upper case, Number, Special char
+          </Text>
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "color": "#000000",
+                  "fontFamily": "Poppins-Medium",
+                  "fontSize": 12,
+                  "marginTop": 20.009999999999998,
+                  "textAlign": "center",
+                  "textDecorationLine": "underline",
+                }
+              }
+            >
+              Forgot your password?
+            </Text>
+          </View>
+        </View>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "backgroundColor": "#3AF1C2",
+              "borderRadius": 30,
+              "height": 100.05,
+              "justifyContent": "center",
+              "margin": 30.682,
+              "marginTop": 56.028000000000006,
+              "opacity": 1,
+              "shadowColor": "#3AF1C2",
+              "shadowOffset": Object {
+                "height": 6,
+                "width": 4,
+              },
+              "shadowOpacity": 0.4,
+              "shadowRadius": 5,
+              "width": 646.551724137931,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000000",
+                "fontFamily": "Poppins-Medium",
+                "fontSize": 13.5,
+              }
+            }
+          >
+            Log In
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "alignSelf": "center",
+                "fontFamily": "Poppins-Medium",
+                "fontSize": 13,
+                "opacity": 0.3,
+                "textAlign": "center",
+              }
+            }
+          >
+            Are you new here?
+              
+          </Text>
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "color": "#000000",
+                "fontFamily": "Poppins-Medium",
+                "fontSize": 13,
+                "textAlign": "center",
+                "textDecorationLine": "underline",
+              }
+            }
+          >
+            Create account
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

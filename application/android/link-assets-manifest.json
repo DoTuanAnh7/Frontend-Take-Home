@@ -1,0 +1,41 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Comfortaa-Bold.ttf",
+      "sha1": "1ded8056b948fe8a346e51f47858e61e6d0e31ca"
+    },
+    {
+      "path": "assets/fonts/Comfortaa-Light.ttf",
+      "sha1": "65bc53a44729aec5c534b632b13c72b9c2735987"
+    },
+    {
+      "path": "assets/fonts/Comfortaa-Medium.ttf",
+      "sha1": "75dd133e3a455784d3123b51787d8c55d7288df6"
+    },
+    {
+      "path": "assets/fonts/Comfortaa-Regular.ttf",
+      "sha1": "a9fe1b98286473fdc1e5fcef3f754d7f9d024c29"
+    },
+    {
+      "path": "assets/fonts/Comfortaa-SemiBold.ttf",
+      "sha1": "2c4243d82b53c4206a386c8b28657fd830c546c7"
+    },
+    {
+      "path": "assets/fonts/Montserrat-SemiBold.ttf",
+      "sha1": "f829de4c176fb2ccf5e33360920f48de6794434e"
+    },
+    {
+      "path": "assets/fonts/Poppins-Medium.ttf",
+      "sha1": "af7058373acbcf383dd114b8f9bbfb9faafd79eb"
+    },
+    {
+      "path": "assets/fonts/Poppins-Regular.ttf",
+      "sha1": "01d319c533f62ea29f03b5df8adfd4d93d2d2a38"
+    },
+    {
+      "path": "assets/fonts/Poppins-SemiBold.ttf",
+      "sha1": "20b39c8b480c946b084d6aa09f12bf10b2ec5aa6"
+    }
+  ]
+}

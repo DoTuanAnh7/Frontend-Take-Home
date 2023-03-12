@@ -1,0 +1,1029 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard component renders correctly 1`] = `
+Array [
+  <RCTScrollView
+    contentContainerStyle={
+      Object {
+        "paddingBottom": 16,
+      }
+    }
+    nestedScrollEnabled={true}
+    refreshControl={
+      <RefreshControlMock
+        onRefresh={[Function]}
+        progressViewOffset={18}
+        refreshing={false}
+        style={
+          Object {
+            "backgroundColor": "#F7F7F9",
+          }
+        }
+        tintColor="#3AF1C2"
+        title="Refresh"
+      />
+    }
+    showsHorizontalScrollIndicator={false}
+    showsVerticalScrollIndicator={false}
+    style={
+      Object {
+        "backgroundColor": "#F7F7F9",
+        "flex": 1,
+        "marginBottom": -16,
+      }
+    }
+  >
+    <RCTRefreshControl />
+    <View>
+      <View
+        accessible={true}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "margin": 18.75,
+              "marginBottom": 26.68,
+              "marginTop": 80.03999999999999,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#105157",
+                    "borderRadius": 24,
+                    "height": 40,
+                    "justifyContent": "center",
+                    "width": 40,
+                  },
+                  Object {
+                    "justifyContent": "center",
+                    "marginLeft": 18.35755975068582,
+                  },
+                ]
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#39F1C2",
+                    "fontSize": 16,
+                  }
+                }
+              />
+            </View>
+          </View>
+          <Text
+            numberOfLines={1}
+            style={
+              Object {
+                "color": "#111315",
+                "fontFamily": "Poppins-Medium",
+                "fontSize": 16,
+                "justifyContent": "center",
+                "marginLeft": 123.75,
+                "marginTop": 6.67,
+              }
+            }
+          >
+            Hey, 
+            
+          </Text>
+          <View
+            style={
+              Object {
+                "marginLeft": "auto",
+                "marginRight": 20.250000000000004,
+              }
+            }
+          >
+            <View
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../assets/icons/Question-black.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "height": 24,
+                      "width": 24,
+                    },
+                    Object {
+                      "height": 30,
+                      "width": 30,
+                    },
+                  ]
+                }
+              />
+            </View>
+            <Modal
+              animationType="fade"
+              hardwareAccelerated={false}
+              onRequestClose={[Function]}
+              transparent={true}
+              visible={false}
+            />
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "paddingLeft": 30,
+              "paddingRight": 30,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#F7F7F9",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "backgroundColor": "#082E31",
+                  "borderRadius": 28,
+                  "elevation": 4,
+                  "height": 160,
+                  "shadowColor": "#DEDFE3",
+                  "shadowOffset": Object {
+                    "height": 1,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 1,
+                  "shadowRadius": 1,
+                  "width": 315,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "borderRadius": 28,
+                    "flexDirection": "column",
+                    "height": "100%",
+                    "justifyContent": "space-between",
+                    "paddingLeft": 45,
+                    "paddingTop": 26.68,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flexDirection": "column",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "flexDirection": "row",
+                        "width": "92%",
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        Object {
+                          "testUri": "../../../assets/images_assets/BobbobEllipse.png",
+                        }
+                      }
+                      style={
+                        Object {
+                          "alignSelf": "flex-start",
+                          "height": 16,
+                          "marginBottom": 17.342000000000002,
+                          "width": 24,
+                        }
+                      }
+                    />
+                  </View>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#39F1C2",
+                        "fontFamily": "Poppins-Medium",
+                        "fontSize": 12,
+                        "marginBottom": 46.690000000000005,
+                        "marginLeft": -18.75,
+                      }
+                    }
+                  >
+                     
+                    <Text
+                      style={
+                        Object {
+                          "color": "#39F1C2",
+                          "fontFamily": "Comfortaa-SemiBold",
+                          "fontSize": 14,
+                        }
+                      }
+                    >
+                      bobbob
+                    </Text>
+                     Balance
+                  </Text>
+                  <View
+                    style={
+                      Object {
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <View
+                      accessible={true}
+                      collapsable={false}
+                      focusable={true}
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "marginLeft": "auto",
+                          "marginRight": 52.50000000000001,
+                          "opacity": 1,
+                        }
+                      }
+                    >
+                      <Image
+                        source={
+                          Object {
+                            "testUri": "../../../assets/images_assets/Eye.png",
+                          }
+                        }
+                        style={
+                          Object {
+                            "height": 14,
+                            "marginTop": 20.009999999999998,
+                            "width": 20,
+                          }
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View>
+            <View
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "height": 165,
+                  "marginTop": 33.35,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <Image
+                  source={
+                    Object {
+                      "testUri": "../../../assets/icons/Wallet-percent.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "alignSelf": "flex-start",
+                      "height": 24,
+                      "width": 24,
+                    }
+                  }
+                />
+                <Text
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "color": "#111315",
+                      "fontFamily": "Poppins-Medium",
+                      "fontSize": 12,
+                      "marginLeft": 4,
+                      "paddingBottom": 8,
+                      "paddingTop": 4,
+                    }
+                  }
+                >
+                  Interest
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "borderRadius": 28,
+                    "height": "100%",
+                    "shadowColor": "#DEDFE3",
+                    "shadowOffset": Object {
+                      "height": 1,
+                      "width": 0,
+                    },
+                    "shadowOpacity": 1,
+                    "shadowRadius": 1,
+                    "width": 315,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#FFFFFF",
+                      "borderRadius": 28,
+                      "flexDirection": "row",
+                      "height": 80,
+                      "overflow": "hidden",
+                      "width": "100%",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "flex": 1,
+                        "paddingLeft": 20,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "flexDirection": "row",
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Object {
+                            "flexDirection": "column",
+                            "marginRight": "auto",
+                          }
+                        }
+                      >
+                        <Text
+                          style={
+                            Object {
+                              "alignSelf": "center",
+                              "color": "#111315",
+                              "fontFamily": "Poppins-Medium",
+                              "fontSize": 12,
+                              "fontWeight": "400",
+                              "marginRight": "auto",
+                              "paddingBottom": 5,
+                            }
+                          }
+                        >
+                          Total earned
+                        </Text>
+                        <Text
+                          style={
+                            Object {
+                              "alignSelf": "flex-start",
+                              "color": "#111315",
+                              "fontFamily": "Poppins-Medium",
+                              "fontSize": 20,
+                            }
+                          }
+                        >
+                          US$
+                        </Text>
+                      </View>
+                      <View
+                        style={
+                          Object {
+                            "flexDirection": "column",
+                            "marginLeft": "auto",
+                            "marginRight": 75,
+                          }
+                        }
+                      >
+                        <Text
+                          style={
+                            Object {
+                              "alignSelf": "center",
+                              "color": "#111315",
+                              "fontFamily": "Poppins-Medium",
+                              "fontSize": 12,
+                              "fontWeight": "400",
+                              "paddingBottom": 5,
+                            }
+                          }
+                        >
+                          Earned in November
+                        </Text>
+                        <Text
+                          style={
+                            Object {
+                              "alignSelf": "flex-start",
+                              "color": "#111315",
+                              "fontFamily": "Poppins-Medium",
+                              "fontSize": 20,
+                            }
+                          }
+                        >
+                          US$
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "marginTop": 66.7,
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../assets/icons/Diamond-black.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 24,
+                    "width": 24,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "color": "#111315",
+                    "fontFamily": "Poppins-Medium",
+                    "fontSize": 12,
+                    "marginLeft": 4,
+                    "paddingBottom": 8,
+                    "paddingTop": 4,
+                  }
+                }
+              >
+                Rewards
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#105157",
+                    "borderRadius": 28,
+                    "height": 160,
+                    "justifyContent": "center",
+                    "width": 150,
+                  }
+                }
+              >
+                <Image
+                  source={
+                    Object {
+                      "testUri": "../../../assets/images_assets/CarbonCredit.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "alignSelf": "flex-start",
+                      "height": 20.41,
+                      "marginBottom": 13.34,
+                      "marginLeft": 41.99999999999999,
+                      "width": 16.56,
+                    }
+                  }
+                />
+                <Text
+                  style={
+                    Object {
+                      "color": "#39F1C2",
+                      "fontFamily": "Poppins-Medium",
+                      "fontSize": 12,
+                      "marginLeft": 33.75,
+                    }
+                  }
+                >
+                  Carbon Credits
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "color": "white",
+                      "fontFamily": "Poppins-Medium",
+                      "fontSize": 20,
+                      "marginLeft": 24.75,
+                      "marginTop": 40,
+                    }
+                  }
+                >
+                  <Text
+                    styles={
+                      Object {
+                        "fontFamily": "Poppins-Medium",
+                        "fontSize": 20,
+                      }
+                    }
+                  >
+                     C
+                  </Text>
+                   
+                  0.00
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "color": "#7FD8C8",
+                      "fontFamily": "Poppins-Medium",
+                      "fontSize": 12,
+                      "marginLeft": 35.25,
+                    }
+                  }
+                >
+                  US$
+                </Text>
+              </View>
+              <View
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "justifyContent": "center",
+                      "marginLeft": 26.68,
+                      "shadowColor": "#39F1C2",
+                      "shadowOffset": Object {
+                        "height": 4,
+                        "width": 0,
+                      },
+                      "shadowOpacity": 1,
+                      "shadowRadius": 4,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "backgroundColor": "#105157",
+                        "borderRadius": 28,
+                        "height": 160,
+                        "justifyContent": "center",
+                        "width": 150,
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        Object {
+                          "testUri": "../../../assets/icons/Refer-Friends.png",
+                        }
+                      }
+                      style={
+                        Object {
+                          "alignSelf": "flex-start",
+                          "height": 36.86,
+                          "marginLeft": 30,
+                          "marginTop": -13.34,
+                          "width": 40,
+                        }
+                      }
+                    />
+                    <Text
+                      style={
+                        Object {
+                          "color": "#39F1C2",
+                          "fontFamily": "Poppins-Medium",
+                          "fontSize": 12,
+                          "marginLeft": 33.75,
+                        }
+                      }
+                    >
+                      Refer friends
+                    </Text>
+                    <View
+                      style={
+                        Object {
+                          "marginLeft": 30,
+                          "marginTop": 40,
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "color": "#111315",
+                              "fontFamily": "Poppins-Medium",
+                              "fontSize": 14,
+                              "letterSpacing": 0,
+                              "lineHeight": 21,
+                              "textAlign": "left",
+                            },
+                            Object {
+                              "color": "#FFFFFF",
+                            },
+                          ]
+                        }
+                      >
+                        To earn a higher interest rate
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>,
+  <View
+    pointerEvents="box-none"
+    style={
+      Array [
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+          "zIndex": 9998,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      collapsable={false}
+      onGestureHandlerEvent={[Function]}
+      onGestureHandlerStateChange={[Function]}
+      pointerEvents="box-none"
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <View
+        collapsable={false}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#fff",
+              "borderTopLeftRadius": 35,
+              "borderTopRightRadius": 35,
+              "elevation": 4,
+              "height": 1314,
+              "marginTop": 404.202,
+              "maxHeight": 1314,
+              "shadowColor": "#000",
+              "shadowOffset": Object {
+                "height": 10,
+                "width": 0,
+              },
+              "shadowOpacity": 0.4,
+              "shadowRadius": 12,
+              "transform": Array [
+                Object {
+                  "translateY": 1314,
+                },
+              ],
+              "zIndex": 5,
+            },
+            Object {
+              "paddingBottom": 0,
+            },
+          ]
+        }
+      >
+        <View
+          collapsable={false}
+          forwardedRef={[Function]}
+          onGestureHandlerEvent={[Function]}
+          onGestureHandlerStateChange={[Function]}
+          style={
+            Object {
+              "flex": 1,
+              "flexGrow": 1,
+              "flexShrink": 1,
+            }
+          }
+        >
+          <RCTScrollView
+            bounces={true}
+            collapsable={false}
+            forwardedRef={[Function]}
+            keyboardDismissMode="interactive"
+            onGestureHandlerEvent={[Function]}
+            onGestureHandlerStateChange={[Function]}
+            onLayout={[Function]}
+            onScrollBeginDrag={[Function]}
+            scrollEnabled={false}
+            scrollEventThrottle={16}
+            style={Object {}}
+          >
+            <View>
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#fff",
+                    "borderTopLeftRadius": 35,
+                    "borderTopRightRadius": 35,
+                    "height": 929.7980000000001,
+                    "padding": 23,
+                    "paddingBottom": 132.066,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignSelf": "center",
+                      "backgroundColor": "#EFEFF1",
+                      "borderRadius": 30,
+                      "bottom": 15,
+                      "height": "1%",
+                      "width": "15%",
+                    }
+                  }
+                />
+                <View>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "flex-start",
+                        "color": "#111315",
+                        "fontFamily": "Poppins-Medium",
+                        "fontSize": 14,
+                        "marginBottom": 46.690000000000005,
+                        "marginLeft": 30,
+                        "marginTop": 13.34,
+                      }
+                    }
+                  >
+                    Transactions
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                      "paddingLeft": 15,
+                    }
+                  }
+                >
+                  <View
+                    accessible={true}
+                    collapsable={false}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "backgroundColor": "#082E31",
+                        "borderColor": "red",
+                        "borderRadius": 30,
+                        "height": 53.36,
+                        "justifyContent": "center",
+                        "marginRight": 15,
+                        "opacity": 1,
+                        "width": 97.5,
+                      }
+                    }
+                  >
+                    <View>
+                      <Text
+                        style={
+                          Object {
+                            "alignSelf": "center",
+                            "color": "#39F1C2",
+                            "fontFamily": "Poppins-Medium",
+                            "fontSize": 12,
+                            "justifyContent": "center",
+                          }
+                        }
+                      >
+                        All
+                      </Text>
+                    </View>
+                  </View>
+                  <View
+                    accessible={true}
+                    collapsable={false}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "backgroundColor": "#F7F7F9",
+                        "borderRadius": 30,
+                        "height": 53.36,
+                        "justifyContent": "center",
+                        "marginRight": 15,
+                        "opacity": 1,
+                        "width": 180,
+                      }
+                    }
+                  >
+                    <View>
+                      <Text
+                        style={
+                          Object {
+                            "alignSelf": "center",
+                            "color": "#111315",
+                            "fontFamily": "Poppins-Medium",
+                            "fontSize": 12,
+                            "justifyContent": "center",
+                          }
+                        }
+                      >
+                        Daily interest
+                      </Text>
+                    </View>
+                  </View>
+                  <View
+                    accessible={true}
+                    collapsable={false}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "backgroundColor": "#F7F7F9",
+                        "borderRadius": 30,
+                        "height": 53.36,
+                        "justifyContent": "center",
+                        "marginRight": 15,
+                        "opacity": 1,
+                        "width": 165,
+                      }
+                    }
+                  >
+                    <View>
+                      <Text
+                        style={
+                          Object {
+                            "alignSelf": "center",
+                            "color": "#111315",
+                            "fontFamily": "Poppins-Medium",
+                            "fontSize": 12,
+                            "justifyContent": "center",
+                          }
+                        }
+                      >
+                        Deposits
+                      </Text>
+                    </View>
+                  </View>
+                  <View
+                    accessible={true}
+                    collapsable={false}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "backgroundColor": "#F7F7F9",
+                        "borderRadius": 30,
+                        "height": 53.36,
+                        "justifyContent": "center",
+                        "marginRight": 15,
+                        "opacity": 1,
+                        "width": 165,
+                      }
+                    }
+                  >
+                    <View>
+                      <Text
+                        style={
+                          Object {
+                            "alignSelf": "center",
+                            "color": "#111315",
+                            "fontFamily": "Poppins-Medium",
+                            "fontSize": 12,
+                            "justifyContent": "center",
+                          }
+                        }
+                      >
+                        Scheduled
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+                <RCTScrollView
+                  showsVerticalScrollIndicator={false}
+                >
+                  <View />
+                </RCTScrollView>
+              </View>
+            </View>
+          </RCTScrollView>
+        </View>
+      </View>
+    </View>
+  </View>,
+]
+`;

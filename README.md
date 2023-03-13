@@ -36,6 +36,12 @@ yarn install-all
 
 // STEP 5: Run Backend and Application
 yarn start-all
+
+// TEST STEP 1: Run Test 
+cd application
+
+// TEST STEP 2: Run Test 
+yarn test
 ```
 
 - local api: http://localhost:3000

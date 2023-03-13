@@ -14,6 +14,7 @@ login to database : https://cloud.mongodb.com/
 
 Username: dtanh7@cmcglobal.vn   
 Password: tuananh127@
+
 // STEP 2:
 
 Add your IP address inside Database tab
@@ -39,7 +40,7 @@ yarn start-all
 
 - local api: http://localhost:3000
 
-Username: a@gmail.com   
+Username: A@gmail.com   
 Password: 123123
 
 ### scripts 

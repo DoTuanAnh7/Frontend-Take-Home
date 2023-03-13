@@ -41,7 +41,7 @@ yarn start-all
 cd application
 
 // TEST STEP 2: Run Test 
-yarn test
+yarn run test
 ```
 
 - local api: http://localhost:3000

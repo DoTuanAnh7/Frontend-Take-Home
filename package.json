@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start-all": "concurrently \"cd backend && yarn start\" \"cd application && yarn start\" \"cd application && yarn ios\"",
-    "install-all": "concurrently \"cd backend && yarn install\" \"cd client && yarn install\"",
+    "install-all": "concurrently \"cd backend && yarn install\" \"cd application && yarn install\"",
     "format": "concurrently \"cd backend && npm run format\" \"cd client && npm run format\" \"cd rules-project && npm run format\"",
     "generate": "plop",
     "docker-compose": "docker-compose up -d",
